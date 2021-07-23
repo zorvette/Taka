@@ -1,0 +1,9 @@
+@media (min-width: 1200px){
+  .ftco-intro .wrap .info {
+    width: 100%;
+	}
+}
+
+.ftco-section {
+	padding-top: 4em;
+}
