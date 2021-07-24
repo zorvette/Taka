@@ -4,6 +4,37 @@
 	}
 }
 
+.h3-styles {
+  font-size:16px;
+  font-weight:300;
+  width:calc(100% - 80px);
+  font-size:18px;
+}
+
 .ftco-section {
 	padding-top: 4em;
+}
+
+.text-red-1 {
+  color: rgb(206, 1, 1);
+}
+
+.text-red-2 {
+  color: red;
+  font-size:16px;
+  font-weight:300;
+  width:calc(100% - 80px);
+  font-size:18px
+}
+
+.bebidas-space{
+  margin-bottom: 0;
+}
+
+.bebidas-list {
+  font-family: "Poppins",Arial,sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 300;
+  color: gray;
 }
