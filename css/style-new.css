@@ -37,6 +37,10 @@ ul li {
   color: gray;
 }
 
+.ml-auto {
+  align-items: flex-start;
+}
+
 @media (min-width: 992px) {
   ul li {
     display: none;
@@ -57,11 +61,21 @@ ul li {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+  .ml-auto {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 425px) {
   .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
     padding-top: 8px;
     padding-bottom: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .nav-link{
+    padding: .1rem;
+    margin: 0px 1px;
   }
 }
